@@ -19,7 +19,7 @@ public class Tpmodul8 {
         
         int a=1,b=1,hasil=1,c;
         Scanner input = new Scanner (System.in);
-        System.out.print ("Masukan Deret Fibonacci  : ");
+        System.out.print ("Masukan Batasan Deret  : ");
              c = input.nextInt ();
              for(int i=1; i<=c; i++){            
          a=b;
