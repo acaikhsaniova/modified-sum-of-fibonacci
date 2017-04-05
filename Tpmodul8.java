@@ -22,8 +22,7 @@ public class Tpmodul8 {
         System.out.print ("Masukan Deret Fibonacci  : ");
              c = input.nextInt ();
              for(int i=1; i<=c; i++){            
-         a=b;
-         b=hasil;
+         hasil = hasil +1;
          System.out.print(hasil+" ");
          hasil=a+b;
          }
